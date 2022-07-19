@@ -37,7 +37,7 @@ public class CartController {
             }
         }
 
-        model.addAttribute("cart", cartItems);
+        model.addAttribute("cart", filteredItems);
 
         return "cart";
     }
