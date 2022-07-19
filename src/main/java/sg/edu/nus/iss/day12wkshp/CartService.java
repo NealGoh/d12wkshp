@@ -29,6 +29,11 @@ public class CartService {
         itm.setQuantity(6);
         lstItems.add(itm);
 
+        itm = new Item();
+        itm.setItemName("Rolex");
+        itm.setQuantity(8);
+        lstItems.add(itm);
+
         return lstItems;
     }
     
